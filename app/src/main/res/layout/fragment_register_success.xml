@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        style="@style/ViewMatchParent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_largest">
+
+        <ImageView
+            style="@style/ViewMatchWidth"
+            android:layout_marginTop="@dimen/height_50dp"
+            android:src="@drawable/ic_logo" />
+
+        <TextView
+            style="@style/ViewMatchWidth"
+            android:layout_marginTop="@dimen/margin_largest"
+            android:gravity="center"
+            android:text="@string/register_completion"
+            android:textColor="@color/grey_300"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            style="@style/ViewMatchWidth"
+            android:layout_marginTop="@dimen/height_50dp"
+            android:src="@drawable/ic_register_success" />
+
+        <TextView
+            style="@style/ViewMatchWidth"
+            android:layout_marginTop="@dimen/height_50dp"
+            android:gravity="center"
+            android:text="@string/register_thanks_1"
+            android:textColor="@color/grey_300"
+            android:textSize="20sp" />
+
+        <TextView
+            style="@style/ViewMatchWidth"
+            android:gravity="center"
+            android:text="@string/register_thanks_2"
+            android:textColor="@color/grey_300"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            style="@style/ViewMatchWidth"
+            android:layout_marginStart="@dimen/height_50dp"
+            android:layout_marginTop="@dimen/height_50dp"
+            android:layout_marginEnd="@dimen/height_50dp"
+            android:background="@drawable/bg_button_next"
+            android:foreground="?android:selectableItemBackground"
+            android:padding="@dimen/padding_larger"
+            android:text="@string/register_start"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</layout>

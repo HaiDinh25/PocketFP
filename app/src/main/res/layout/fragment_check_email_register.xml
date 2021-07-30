@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        style="@style/ViewMatchParent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/ViewMatchWidth"
+            android:layout_marginTop="@dimen/height_50dp"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_larger">
+
+            <TextView
+                style="@style/ViewWrapContent"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/register_check_email_1" />
+
+            <TextView
+                style="@style/ViewWrapContent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_large"
+                android:text="@string/register_check_email_2" />
+
+            <ImageView
+                style="@style/ViewWrapContent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_largest"
+                android:src="@drawable/ic_register_mail" />
+
+            <TextView
+                style="@style/ViewWrapContent"
+                android:layout_marginTop="@dimen/margin_largest"
+                android:text="@string/register_check_email_address" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                style="@style/ViewMatchWidth"
+                android:background="@drawable/bg_gray_border"
+                android:drawablePadding="@dimen/padding_large"
+                android:padding="@dimen/padding_large"
+                app:drawableStartCompat="@drawable/ic_email" />
+
+            <Button
+                android:id="@+id/buttonRegister"
+                style="@style/ViewMatchWidth"
+                android:layout_marginStart="@dimen/height_50dp"
+                android:layout_marginTop="@dimen/margin_largest"
+                android:layout_marginEnd="@dimen/height_50dp"
+                android:background="@drawable/bg_button_next"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="@dimen/padding_larger"
+                android:text="@string/register_check_email_button_resend"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/ViewMatchWidth"
+            android:layout_marginTop="@dimen/margin_larger"
+            android:background="@color/grey_100"
+            android:drawablePadding="@dimen/padding_larger"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding_medium"
+            android:paddingStart="@dimen/height_50dp"
+            android:text="@string/register_check_email_3"
+            app:drawableStartCompat="@drawable/ic_help"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            style="@style/ViewMatchWidth"
+            android:layout_marginStart="@dimen/height_40dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/ViewWrapContent"
+                android:layout_marginTop="@dimen/margin_largest"
+                android:drawablePadding="@dimen/padding_large"
+                android:text="@string/register_check_email_4"
+                app:drawableStartCompat="@drawable/ic_warning" />
+
+            <TextView
+                style="@style/ViewWrapContent"
+                android:layout_marginTop="@dimen/margin_largest"
+                android:drawablePadding="@dimen/padding_large"
+                android:text="@string/register_check_email_5"
+                app:drawableStartCompat="@drawable/ic_warning" />
+
+            <TextView
+                style="@style/ViewWrapContent"
+                android:layout_marginTop="@dimen/margin_largest"
+                android:drawablePadding="@dimen/padding_large"
+                android:text="@string/register_check_email_6"
+                app:drawableStartCompat="@drawable/ic_warning" />
+
+            <TextView
+                style="@style/ViewWrapContent"
+                android:layout_marginStart="@dimen/margin_largest"
+                android:text="@string/register_check_email_7" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

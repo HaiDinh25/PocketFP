@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ViewMatchParent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="ViewMatchHeight" parent="ViewMatchParent">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ViewMatchWidth" parent="ViewMatchParent">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ViewWrapContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="TextViewBlack" parent="ViewWrapContent">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextViewGray" parent="ViewWrapContent">
+        <item name="android:textColor">@color/grey_300</item>
+    </style>
+
+    <style name="ButtonBack" parent="ViewWrapContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableStart">@drawable/ic_back</item>
+        <item name="android:background">@drawable/bg_button_back</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:padding">@dimen/padding_large</item>
+        <item name="android:text">@string/guarantee_back</item>
+    </style>
+
+    <style name="ButtonNext" parent="ViewWrapContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawableEnd">@drawable/ic_next</item>
+        <item name="android:background">@drawable/bg_button_next</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/padding_large</item>
+        <item name="android:text">@string/guarantee_next</item>
+    </style>
+
+    <style name="ButtonRegisterScreen" parent="ViewMatchWidth">
+        <item name="android:background">@drawable/bg_button_register_not_check</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/margin_larger</item>
+        <item name="android:textColor">@color/grey_300</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonLoginScreen" parent="ButtonRegisterScreen">
+        <item name="android:background">@drawable/bg_button_register_check</item>
+    </style>
+
+    <style name="DialogBotToTopAnim">
+        <item name="android:windowEnterAnimation">@anim/anim_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/anim_slide_down</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+
+</resources>

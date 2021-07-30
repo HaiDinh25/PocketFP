@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#0C0C0C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#00A6FF</color>
+    <color name="secendaryColor">#3d5afe</color>
+    <color name="start_gradient">#0ed2f2</color>
+
+    <color name="blue_900">#01579B</color>
+    <color name="blue_700">#0076C2</color>
+    <color name="blue_500">#1496DC</color>
+    <color name="blue_300">#4FC3F7</color>
+    <color name="blue_200">#B3E5FC</color>
+    <color name="blue_100">#E1F5FE</color>
+
+    <color name="dark_blue_900">#0A3F85</color>
+    <color name="dark_blue_700">#3A5E9A</color>
+    <color name="dark_blue_500">#4571B9</color>
+    <color name="dark_blue_300">#7495CB</color>
+    <color name="dark_blue_200">#B2C4E2</color>
+    <color name="dark_blue_100">#D1DCEE</color>
+
+
+    <color name="grey_900">#313642</color>
+    <color name="grey_700">#575C68</color>
+    <color name="grey_500">#828690</color>
+    <color name="grey_300">#A7ADBA</color>
+    <color name="grey_200">#D7DBE3</color>
+    <color name="grey_100">#F2F2F6</color>
+    <color name="grey_50">#F9F9FC</color>
+
+    <color name="text_gray_default">#A7ADBA</color>
+    <color name="text_blue_default">#0076C2</color>
+    <color name="white_gradient_start">#F2F2F2</color>
+    <color name="white_gradient_center">#FAFAFA</color>
+    <color name="footer_start_gradient">#EAEAEA</color>
+    <color name="text_footer_color">#575C68</color>
+
+    <color name="gradient_orange_end">#FF9068</color>
+    <color name="gradient_orange_start">#FD746C</color>
+    <color name="red_new">#FF7670</color>
+    <color name="text_dark_blue">#34558B</color>
+
+    <color name="red_gradient_end">#FF6915</color>
+    <color name="red_gradient_start">#F81C1C</color>
+
+    <color name="orange">#FB620D</color>
+
+    <color name="blur_black">#D90C0C0C</color>
+    <color name="blur_white">#D9ffffff</color>
+</resources>

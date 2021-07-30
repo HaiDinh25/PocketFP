@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">PocketFB</string>
+
+    //ピタッと保障診断 screen
+    <string name="guarantee_gender">性　別</string>
+    <string name="guarantee_">性　別</string>
+    <string name="guarantee_male">男 性</string>
+    <string name="guarantee_female">女 性</string>
+    <string name="guarantee_birth_day">生年月日</string>
+    <string name="guarantee_birth_day_hint">１９９０年 １月 １日</string>
+    <string name="guarantee_ex">これまでの経験</string>
+    <string name="guarantee_office_civil">会社員/ 公務員</string>
+    <string name="guarantee_ex_year">経験年数 0年</string>
+    <string name="guarantee_recent">直近年収</string>
+    <string name="guarantee_self_employed">自営業</string>
+    <string name="guarantee_yen">万円</string>
+    <string name="guarantee_house_wife">主　婦</string>
+    <string name="guarantee_current_occupation">現在の職業</string>
+    <string name="guarantee_current_occupation_hint">選　択</string>
+    <string name="guarantee_spouse">配偶者</string>
+    <string name="guarantee_spouse_may_be">あ り</string>
+    <string name="guarantee_spouse_none">な し</string>
+    <string name="guarantee_num_children">子どもの人数</string>
+    <string name="guarantee_num_children_hint">な し</string>
+    <string name="guarantee_monthly_living_ex">月の生活費</string>
+    <string name="guarantee_monthly_living_include_house">住居費含む</string>
+    <string name="guarantee_back">もどる</string>
+    <string name="guarantee_next">すすむ</string>
+
+    //配偶者について screen
+    <string name="about_spouse_birth_day">配偶者の生年月日</string>
+    <string name="about_spouse_past_ex">配偶者のこれまでの経験</string>
+    <string name="about_spouse_current_occupation">配偶者の現在の職業</string>
+    <string name="about_spouse_occupation_hint">選　択</string>
+
+    //子どもについて screen
+    <string name="about_children_child_age"><b>子どもの年齢</b></string>
+    <string name="about_children_1_age">1人目</string>
+    <string name="about_children_2_age">2人目</string>
+    <string name="about_children_3_age">3人目</string>
+    <string name="about_children_4_age">4人目</string>
+    <string name="about_children_age">歳</string>
+    <string name="about_children_child_schedule"><b>子どもの進路予定</b></string>
+    <string name="about_children_applies_all_child">※全ての子どもに適用されます</string>
+    <string name="about_children_public_every">全て公立にする</string>
+    <string name="about_children_private_every">全て私立にする</string>
+    <string name="about_children_kindergarten">幼稚園</string>
+    <string name="about_children_primary_school">小学校</string>
+    <string name="about_children_junior_high_school">中学校</string>
+    <string name="about_children_high_school">高　校</string>
+    <string name="about_children_university">大　学</string>
+    <string name="about_children_public">公  立</string>
+    <string name="about_children_private">私  立</string>
+    <string name="about_children_public_national">国公立</string>
+    <string name="about_children_liberal_arts">私立文系</string>
+    <string name="about_children_private_science">私立理系</string>
+    <string name="about_children_private_medical_dentistry">私立医歯系</string>
+    <string name="about_children_do_not">計算しない</string>
+
+    //Register
+    <string name="register_sign_in">新規登録</string>
+    <string name="register_terms"><i>利用規約</i>に同意するにチェックを入れてお進みください。</string>
+    <string name="register_check_box_terms">利用規約に同意する</string>
+    <string name="register_apple">Appleでサインアップ</string>
+    <string name="register_yahoo">Yahoo! JAPANではじめる</string>
+    <string name="register_google">Googleではじめる</string>
+    <string name="register_email">メールアドレスではじめる</string>
+    <string name="register_account_exists">アカウントをお持ちの方</string>
+    <string name="register_login"><b>ログイン</b></string>
+
+    <string name="register_email_hint">メールアドレス</string>
+    <string name="register_pass_hint">パスワード </string>
+    <string name="register_email_validation">無効なメールアドレスです</string>
+    <string name="register_pass_validation">英数字6文字以上で入力してください</string>
+    <string name="register_button">新規登録する</string>
+
+    <string name="register_check_email_1">仮登録メールをお送りしました。メールに記載の</string>
+    <string name="register_check_email_2">URLをクリックして登録を完了させてください</string>
+    <string name="register_check_email_address">以下のメールアドレス宛てに送信しています</string>
+    <string name="register_check_email_3">5分経過してもメールが届かない場合</string>
+    <string name="register_check_email_4">メールアドレスが正しいかご確認ください</string>
+    <string name="register_check_email_5">迷惑メールフォルダをご確認ください</string>
+    <string name="register_check_email_6">ドメイン指定受信の設定をご確認くください</string>
+    <string name="register_check_email_7">\@sbiilabo.co.jpの受信許可をお願いします</string>
+    <string name="register_check_email_button_resend">再送する</string>
+
+    <string name="register_completion">登録完了</string>
+    <string name="register_thanks_1">ありがとうございます</string>
+    <string name="register_thanks_2">登録が完了しました</string>
+    <string name="register_start">はじめる</string>
+
+    //Login
+    <string name="login_title">ログイン</string>
+    <string name="login_apple">Appleでログイン</string>
+    <string name="login_yahoo">Yahoo! JAPANでログイン</string>
+    <string name="login_google">Googleでログイン</string>
+    <string name="login_other">または</string>
+    <string name="login_forgot_pass">パスワードがわからない方はこちら</string>
+    <string name="login_button_login">ログイン</string>
+    <string name="login_register_1">アカウントをお持ちでない方</string>
+    <string name="login_register_2">新規登録</string>
+    <string name="login_failed">メールアドレスまたはパスワードが間違っています</string>
+
+    //Forgot password
+    <string name="forgot_pass_title">パスワードの再設定</string>
+    <string name="forgot_pass_text_1">登録済みのメールアドレスをご入力ください。</string>
+    <string name="forgot_pass_text_2">パスワード再設定用のURLを送信します。</string>
+    <string name="forgot_pass_button">パスワードを再設定する</string>
+
+    <string name="forgot_pass_new">新しいパスワード</string>
+    <string name="forgot_pass_confirm_pass">新しいパスワードの確認</string>
+    <string name="forgot_pass_button_update">設定する</string>
+    <string name="forgot_pass_not_match">パスワードが一致していません</string>
+
+    <string name="forgot_completed">設定完了</string>
+    <string name="forgot_success">パスワードの再設定が完了しました</string>
+    <string name="forgot_go_to_home">ホームへ</string>
+
+    //Dialog auth failed
+    <string name="dialog_auth_title">認証に失敗しました</string>
+    <string name="dialog_auth_content">他の方法で新規登録をお願いします</string>
+    <string name="dialog_close">閉じる</string>
+
+    <string name="dialog_email_registered">既に登録済みのメールアドレスです</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

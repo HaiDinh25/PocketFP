@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_register"
+    app:startDestination="@id/selectMethodLoginFragment">
+
+    <fragment
+        android:id="@+id/selectMethodRegisterFragment"
+        android:name="com.haidv.pocketfb.register.SelectMethodRegisterFragment"
+        android:label="SelectMethodRegisterFragment" >
+        <action
+            android:id="@+id/action_selectMethodRegisterFragment_to_selectMethodLoginFragment"
+            app:destination="@id/selectMethodLoginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/inputInfoRegisterFragment"
+        android:name="com.haidv.pocketfb.register.InputInfoRegisterFragment"
+        android:label="InputInfoRegisterFragment" >
+        <action
+            android:id="@+id/action_inputInfoRegisterFragment_to_checkEmailRegisterFragment"
+            app:destination="@id/checkEmailRegisterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkEmailRegisterFragment"
+        android:name="com.haidv.pocketfb.register.CheckEmailRegisterFragment"
+        android:label="fragment_check_email_register"
+        tools:layout="@layout/fragment_check_email_register" >
+        <action
+            android:id="@+id/action_checkEmailRegisterFragment_to_registerSuccessFragment"
+            app:destination="@id/registerSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerSuccessFragment"
+        android:name="com.haidv.pocketfb.register.RegisterSuccessFragment"
+        android:label="fragment_register_success"
+        tools:layout="@layout/fragment_register_success" />
+    <fragment
+        android:id="@+id/selectMethodLoginFragment"
+        android:name="com.haidv.pocketfb.login.SelectMethodLoginFragment"
+        android:label="SelectMethodLoginFragment" >
+        <action
+            android:id="@+id/action_selectMethodLoginFragment_to_selectMethodRegisterFragment"
+            app:destination="@id/selectMethodRegisterFragment" />
+        <action
+            android:id="@+id/action_selectMethodLoginFragment_to_forgotPassWordFragment"
+            app:destination="@id/inputEmailForgotPassWordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputEmailForgotPassWordFragment"
+        android:name="com.haidv.pocketfb.login.InputEmailForgotPassWordFragment"
+        android:label="ForgotPassWordFragment" >
+        <action
+            android:id="@+id/action_inputEmailForgotPassWordFragment_to_forgotPassWordFragment"
+            app:destination="@id/forgotPassWordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassWordFragment"
+        android:name="com.haidv.pocketfb.login.ForgotPassWordFragment"
+        android:label="ForgotPassWordFragment" >
+        <action
+            android:id="@+id/action_forgotPassWordFragment_to_forgotPassSuccessFragment"
+            app:destination="@id/forgotPassSuccessFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPassSuccessFragment"
+        android:name="com.haidv.pocketfb.login.ForgotPassSuccessFragment"
+        android:label="ForgotPassSuccessFragment" >
+        <action
+            android:id="@+id/action_forgotPassSuccessFragment_to_selectMethodLoginFragment"
+            app:destination="@id/selectMethodLoginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

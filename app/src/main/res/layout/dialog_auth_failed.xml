@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_largest"
+    android:layout_marginEnd="@dimen/padding_largest"
+    android:background="@drawable/bg_dialog_border_12dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding_larger">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        style="@style/TextViewBlack"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/padding_largest"
+        android:text="@string/dialog_auth_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        style="@style/TextViewBlack"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/padding_largest"
+        android:text="@string/dialog_auth_content"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/width_1dp"
+        android:background="@color/grey_300" />
+
+    <TextView
+        android:id="@+id/buttonClose"
+        style="@style/ViewWrapContent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_larger"
+        android:text="@string/dialog_close"
+        android:textColor="@color/primaryColor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

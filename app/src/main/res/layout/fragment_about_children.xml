@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <!--        <variable-->
+        <!--            name=""-->
+        <!--            type="" />-->
+    </data>
+
+    <RelativeLayout
+        style="@style/ViewMatchParent"
+        android:padding="@dimen/padding_larger">
+
+        <ScrollView
+            style="@style/ViewMatchParent"
+            android:layout_above="@id/layoutButton">
+
+            <LinearLayout
+                style="@style/ViewMatchParent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextViewBlack"
+                    android:gravity="center"
+                    android:text="@string/about_children_child_age" />
+
+                <LinearLayout
+                    style="@style/ViewMatchWidth"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            style="@style/ViewMatchWidth"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                style="@style/TextViewGray"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/about_children_1_age" />
+
+                            <TextView
+                                android:id="@+id/age1"
+                                style="@style/TextViewGray"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:text="@string/about_children_age" />
+
+                            <TextView
+                                android:id="@+id/edt1Age"
+                                style="@style/ViewMatchWidth"
+                                android:layout_marginStart="@dimen/margin_small"
+                                android:layout_marginEnd="@dimen/margin_small"
+                                android:layout_toStartOf="@id/age1"
+                                android:layout_toEndOf="@id/tv1"
+                                android:background="@drawable/bg_gray_border"
+                                android:padding="@dimen/padding_large" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            style="@style/ViewMatchWidth"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv2"
+                                style="@style/TextViewGray"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/about_children_2_age" />
+
+                            <TextView
+                                android:id="@+id/age2"
+                                style="@style/TextViewGray"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:text="@string/about_children_age" />
+
+                            <TextView
+                                android:id="@+id/edt2Age"
+                                style="@style/ViewMatchWidth"
+                                android:layout_marginStart="@dimen/margin_small"
+                                android:layout_marginEnd="@dimen/margin_small"
+                                android:layout_toStartOf="@id/age2"
+                                android:layout_toEndOf="@id/tv2"
+                                android:background="@drawable/bg_gray_border"
+                                android:padding="@dimen/padding_large" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            style="@style/ViewMatchWidth"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv3"
+                                style="@style/TextViewGray"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/about_children_3_age" />
+
+                            <TextView
+                                android:id="@+id/age3"
+                                style="@style/TextViewGray"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:text="@string/about_children_age" />
+
+                            <TextView
+                                android:id="@+id/edt3Age"
+                                style="@style/ViewMatchWidth"
+                                android:layout_marginStart="@dimen/margin_small"
+                                android:layout_marginEnd="@dimen/margin_small"
+                                android:layout_toStartOf="@id/age3"
+                                android:layout_toEndOf="@id/tv3"
+                                android:background="@drawable/bg_gray_border"
+                                android:padding="@dimen/padding_large" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            style="@style/ViewMatchWidth"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tv4"
+                                style="@style/TextViewGray"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:text="@string/about_children_4_age" />
+
+                            <TextView
+                                android:id="@+id/age4"
+                                style="@style/TextViewGray"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:text="@string/about_children_age" />
+
+                            <TextView
+                                android:id="@+id/edt4Age"
+                                style="@style/ViewMatchWidth"
+                                android:layout_marginStart="@dimen/margin_small"
+                                android:layout_marginEnd="@dimen/margin_small"
+                                android:layout_toStartOf="@id/age4"
+                                android:layout_toEndOf="@id/tv4"
+                                android:background="@drawable/bg_gray_border"
+                                android:padding="@dimen/padding_large" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ViewMatchWidth"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewBlack"
+                        android:drawablePadding="@dimen/padding_medium"
+                        android:gravity="center"
+                        android:text="@string/about_children_child_schedule" />
+
+                    <TextView
+                        style="@style/TextViewBlack"
+                        android:layout_marginStart="@dimen/margin_large"
+                        android:drawablePadding="@dimen/padding_medium"
+                        android:gravity="center"
+                        android:text="@string/about_children_applies_all_child" />
+
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/toggle"
+                    style="@style/ViewMatchParent"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:background="@drawable/bg_outline"
+                    android:checkedButton="@+id/off"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/width_3dp">
+
+                    <RadioButton
+                        android:id="@+id/buttonOn"
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_switch_on"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_large"
+                        android:text="@string/about_children_public_every"
+                        android:textColor="@drawable/bg_switch_text" />
+
+                    <RadioButton
+                        android:id="@+id/buttonOff"
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_switch_off"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:padding="@dimen/padding_large"
+                        android:text="@string/about_children_private_every"
+                        android:textColor="@drawable/bg_switch_text" />
+                </RadioGroup>
+
+                <LinearLayout
+                    style="@style/ViewMatchWidth"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewBlack"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/about_children_kindergarten" />
+
+                    <RadioGroup
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_public" />
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_marginStart="@dimen/margin_largest"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_private" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ViewMatchWidth"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewBlack"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/about_children_primary_school" />
+
+                    <RadioGroup
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_public" />
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_marginStart="@dimen/margin_largest"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_private" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ViewMatchWidth"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewBlack"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/about_children_junior_high_school" />
+
+                    <RadioGroup
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_public" />
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_marginStart="@dimen/margin_largest"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_private" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ViewMatchWidth"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewBlack"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="@string/about_children_high_school" />
+
+                    <RadioGroup
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_public" />
+
+                        <RadioButton
+                            style="@style/ViewWrapContent"
+                            android:layout_width="0dp"
+                            android:layout_marginStart="@dimen/margin_largest"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_gray_border"
+                            android:buttonTint="@color/primaryColor"
+                            android:padding="@dimen/padding_large"
+                            android:text="@string/about_children_private" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ViewMatchWidth"
+                    android:layout_marginTop="@dimen/margin_large"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/TextViewBlack"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/about_children_university" />
+
+                    <com.haidv.pocketfb.view.MultiRowsRadioGroup
+                        style="@style/ViewMatchWidth"
+                        android:layout_width="0dp"
+                        android:layout_weight="4"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            style="@style/ViewMatchWidth"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                style="@style/ViewMatchWidth"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    style="@style/ViewWrapContent"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_gray_border"
+                                    android:buttonTint="@color/primaryColor"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/padding_large"
+                                    android:text="@string/about_children_public_national" />
+
+                                <RadioButton
+                                    style="@style/ViewWrapContent"
+                                    android:layout_width="0dp"
+                                    android:layout_marginStart="@dimen/margin_medium"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_gray_border"
+                                    android:buttonTint="@color/primaryColor"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/padding_large"
+                                    android:text="@string/about_children_liberal_arts" />
+
+                                <RadioButton
+                                    style="@style/ViewWrapContent"
+                                    android:layout_width="0dp"
+                                    android:layout_marginStart="@dimen/margin_medium"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_gray_border"
+                                    android:buttonTint="@color/primaryColor"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:padding="@dimen/padding_large"
+                                    android:text="@string/about_children_private_science" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                style="@style/ViewMatchWidth"
+                                android:layout_marginTop="@dimen/margin_large"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    style="@style/ViewWrapContent"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_gray_border"
+                                    android:buttonTint="@color/primaryColor"
+                                    android:padding="@dimen/padding_large"
+                                    android:text="@string/about_children_private_medical_dentistry" />
+
+                                <RadioButton
+                                    style="@style/ViewWrapContent"
+                                    android:layout_width="0dp"
+                                    android:layout_marginStart="@dimen/margin_largest"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/bg_gray_border"
+                                    android:buttonTint="@color/primaryColor"
+                                    android:padding="@dimen/padding_large"
+                                    android:text="@string/about_children_do_not" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </com.haidv.pocketfb.view.MultiRowsRadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/layoutButton"
+            style="@style/ViewMatchWidth"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonBack"
+                style="@style/ButtonBack" />
+
+            <Button
+                android:id="@+id/buttonNext"
+                style="@style/ButtonNext"
+                android:layout_marginStart="@dimen/margin_largest" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>
